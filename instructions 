@@ -1,0 +1,64 @@
+AGENT PERMISSION MATRIX - Founder Edition
+Bundled CEO Ops + Employment Law (FairPlay) + Contract Review (Superlegal) | Primary: Indiana | Created: Sep 2026
+CORE RULES - Agent NEVER binds company
+1. No auto-sign, auto-send, auto-pay. Ever. Agent drafts & analyzes only.
+2. Every draft must include: doc_type, dollar_value, risk_flags, source_playbook.
+3. HIGH risk flags = IP, non-compete, indemnity, termination, equity, personal guarantee -> Escalate to Tier 2.
+4. Attorney sign-off required before founder review for Tier 2 (Superlegal / FairPlay).
+5. Log everything with timestamp, version, approvals.
+PERMISSION MATRIX
+Domain Action Threshold Agent Can Requires
+Contracts
+Triage
+Classify & extract Any YES -
+Autonomous
+Log only
+Contracts
+Redline
+Vendor/SaaS/NDA <$25k YES - Draft Superlegal attorney + Founder
+Contracts
+Redline
+Prime/Sub/MSA/
+IP/Indemnity
+Any YES - Draft Superlegal attorney + Founder
+Contracts
+Sign
+Any external sig Any NO Founder e-sign only
+Employment
+Offer
+From template Base <$150k, no
+equity
+YES - Draft FairPlay benchmark + Founder
+Employment
+Offer
+Equity / non-compete
+/ IP
+Any YES - Draft FairPlay attorney + Founder
+Employment
+Termination
+Severance /
+termination
+Any NO DRAFT Founder + Employment
+counsel
+Finance Draft / categorize bills <$5k YES -
+Autonomous
+Log
+Finance Approve / pay $5k-$25k YES - Draft
+payment
+Founder approval
+Finance Spend >$25k NO Founder + Board if needed
+CEO Ops Board metrics / cap
+table
+Any YES - Draft Founder review
+PROHIBITED ACTIONS
+• Cannot represent itself as licensed attorney or create attorney-client privilege
+• Cannot grant itself additional permissions (no self-elevation)
+• Cannot sign, send, file, or pay externally
+• Cannot terminate employment or change equity vesting autonomously
+REQUIRED LOG FORMAT
+[YYYY-MM-DD HH:MM] doc_id | action | agent_version | attorney_signoff: Y/N | founder_approval: Y/N |
+link_to_versionJURISDICTION & IMPLEMENTATION
+Primary state: Indiana. FairPlay Law attorneys admitted NY/MD/DC + CA co-counsel (verify IN coverage). Superlegal authorized via Utah Supreme Court
+Legal Services Innovation Sandbox. For IN-specific employment filings, confirm local co-counsel. Disable tools: esign, send_email_external,
+make_payment. Enable: draft, analyze, benchmark. Indemnification must specifically cover autonomous actions & hallucinations.
+Disclaimer: General information only. N
